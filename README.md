@@ -1,4 +1,4 @@
-# Phrase Sentiment Analyzer 🚀
+# Phrase Sentiment Analyzer 
 
 A FastAPI-based NLP service that classifies Twitter posts as **Positive** or **Negative** using machine learning. Perfect for real-time sentiment analysis in social media applications.
 
