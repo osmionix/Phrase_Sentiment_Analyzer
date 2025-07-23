@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from .model import SentimentModel
 
-app = FastAPI(title="Twitter Sentiment Analyzer")
+app = FastAPI(title="Phrase Sentiment Analyzer")
 
 model = SentimentModel()
 
@@ -16,4 +16,4 @@ async def predict_sentiment(input: TextInput):
 
 @app.get("/")
 async def root():
-    return {"message": "Twitter Sentiment Analyzer API"}
+    return {"message": "Phrase Sentiment Analyzer API"}
